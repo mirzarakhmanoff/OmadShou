@@ -19,10 +19,10 @@ let DATA = [
   "+99890 567 89 02",
 ];
 
-function addNumber() {
-  const number = prompt("O'yinda ishtirok etish uchun raqam kiriting");
-  DATA.push(number.trim());
-}
+// function addNumber() {
+//   const number = prompt("O'yinda ishtirok etish uchun raqam kiriting");
+//   DATA.push(number.trim());
+// }
 
 btn.addEventListener("click", () => {
   btn.setAttribute("disabled", true);
@@ -40,4 +40,4 @@ btn.addEventListener("click", () => {
   }, 5000);
 });
 
-addNumber();
+// addNumber();
